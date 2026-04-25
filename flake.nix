@@ -8,20 +8,19 @@
     flake-utils.lib.eachDefaultSystem (system:
       let
         pkgs = import nixpkgs { inherit system; };
-
-        nodeVersion = "24";
-
-        node = builtins.getAttr ("nodejs_" + nodeVersion) pkgs;
-
       in {
         devShells.default = pkgs.mkShell {
-          buildInputs = [
-            node
-            pkgs.nodePackages.npm
+          packages = [
+            pkgs.nodejs_24
+            pkgs.python314
+            pkgs.ruff
+            pkgs.just
           ];
 
           shellHook = ''
-            echo "Using Node version: $(node --version)"
+            echo "Node:   $(node --version)"
+            echo "Python: $(python --version)"
+            echo "ruff:   $(ruff --version)"
           '';
         };
       });
