@@ -1,0 +1,65 @@
+@if (rows().length > 0) {
+  <div class="mb-6">
+    <h2 class="text-sm font-semibold text-base-content/70 mb-2">
+      Selected ingredients ({{ rows().length }}/3)
+    </h2>
+    <div class="flex flex-wrap items-start gap-3">
+      @for (row of rows(); track row.ingredient.id) {
+        <div
+          class="card card-border card-sm bg-base-100 w-56 cursor-pointer hover:shadow-md transition-shadow"
+          role="button"
+          tabindex="0"
+          (click)="onDeselect(row.ingredient.id)"
+          (keydown.enter)="onDeselect(row.ingredient.id)"
+          (keydown.space)="onDeselect(row.ingredient.id); $event.preventDefault()"
+          [attr.aria-label]="'Deselect ' + row.ingredient.name"
+        >
+          <div class="card-body p-3">
+            <div class="flex items-center justify-between">
+              <h3 class="card-title text-sm">{{ row.ingredient.name }}</h3>
+              <button
+                type="button"
+                class="btn btn-ghost btn-xs btn-circle"
+                (click)="onDeselect(row.ingredient.id); $event.stopPropagation()"
+                [attr.aria-label]="'Remove ' + row.ingredient.name"
+              >
+                &times;
+              </button>
+            </div>
+            <div class="grid grid-cols-2 gap-1 mt-1">
+              @for (effect of row.effects; track effect.id) {
+                <span class="badge badge-xs gap-0.5" [class]="badgeClass(effect)">
+                  {{ effect.name }}
+                </span>
+              }
+            </div>
+          </div>
+        </div>
+      }
+
+      <!-- Potion result -->
+      @if (potionEffects().length > 0) {
+        <div class="divider divider-horizontal mx-1">=</div>
+        <div class="card card-border card-sm bg-base-200 w-56">
+          <div class="card-body p-3">
+            <h3 class="card-title text-sm">Potion</h3>
+            <div class="flex flex-wrap gap-1 mt-1">
+              @for (effect of potionEffects(); track effect.id) {
+                <span class="badge badge-sm gap-0.5" [class]="badgeClass(effect)">
+                  {{ effect.name }}
+                </span>
+              }
+            </div>
+          </div>
+        </div>
+      } @else if (rows().length >= 2) {
+        <div class="divider divider-horizontal mx-1">=</div>
+        <div class="card card-border card-sm card-dash bg-base-200 w-56 opacity-50">
+          <div class="card-body p-3">
+            <h3 class="card-title text-sm text-base-content/50">No shared effects</h3>
+          </div>
+        </div>
+      }
+    </div>
+  </div>
+}
