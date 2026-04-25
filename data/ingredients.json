@@ -1,0 +1,942 @@
+[
+  {
+    "id": "3ca2c9e9-1cd3-41f6-a470-22be80c4830e",
+    "name": "Abecean Longfin",
+    "source": "base"
+  },
+  {
+    "id": "78029727-9e73-4bf2-b84d-5dd37c5bdb9e",
+    "name": "Alocasia Fruit",
+    "source": "creationclub"
+  },
+  {
+    "id": "6f9da140-9df6-4d7e-a155-b06ea6eeaa57",
+    "name": "Ambrosia",
+    "source": "creationclub"
+  },
+  {
+    "id": "ea83dd82-ea39-4488-a994-5c7c773f35d5",
+    "name": "Ancestor Moth Wing",
+    "source": "dawnguard"
+  },
+  {
+    "id": "70db713d-0d76-46ee-9c54-f0e6a418a41a",
+    "name": "Angelfish",
+    "source": "creationclub"
+  },
+  {
+    "id": "05768520-a193-4891-b45d-93b71d00b2eb",
+    "name": "Angler Larvae",
+    "source": "creationclub"
+  },
+  {
+    "id": "62116ad9-1834-4ca5-967e-765db90dfa9c",
+    "name": "Ash Creep Cluster",
+    "source": "dragonborn"
+  },
+  {
+    "id": "3bfda104-cb12-4a69-8588-030cadd560e9",
+    "name": "Ash Hopper Jelly",
+    "source": "dragonborn"
+  },
+  {
+    "id": "0b862192-f21b-40ad-8f12-eb1fac7da1e0",
+    "name": "Ashen Grass Pod",
+    "source": "dragonborn"
+  },
+  {
+    "id": "25fc3d45-6dd6-42d4-b1c4-872be3c7305c",
+    "name": "Aster Bloom Core",
+    "source": "creationclub"
+  },
+  {
+    "id": "c28e8b9d-9879-4e41-a375-e197e31247af",
+    "name": "Bear Claws",
+    "source": "base"
+  },
+  {
+    "id": "c8177437-15ae-4c5f-8e6e-ee3527657d8c",
+    "name": "Bee",
+    "source": "base"
+  },
+  {
+    "id": "c144ba17-65e9-4e11-b8cc-611e12a7ead7",
+    "name": "Beehive Husk",
+    "source": "base"
+  },
+  {
+    "id": "258f8952-e759-4bba-a926-ea4cbb8fc565",
+    "name": "Berit's Ashes",
+    "source": "base"
+  },
+  {
+    "id": "2af30634-6bec-4256-8832-c0b814b97855",
+    "name": "Bittergreen Petals",
+    "source": "creationclub"
+  },
+  {
+    "id": "f031d71b-fa2d-43cf-baa0-47a6e4f43bf1",
+    "name": "Bleeding Crown",
+    "source": "base"
+  },
+  {
+    "id": "4c5eab3c-9628-4ca4-8660-9112c43699f6",
+    "name": "Blind Watcher's Eye",
+    "source": "creationclub"
+  },
+  {
+    "id": "57d5565a-dc12-4a4b-9828-42fd96f31026",
+    "name": "Bliss Bug Thorax",
+    "source": "creationclub"
+  },
+  {
+    "id": "1029f400-998c-4624-becb-aab3ac6ac531",
+    "name": "Blister Pod Cap",
+    "source": "creationclub"
+  },
+  {
+    "id": "97baad5f-7374-4a5b-946e-1b37cbbe0af0",
+    "name": "Blisterwort",
+    "source": "base"
+  },
+  {
+    "id": "05cad101-0da8-40b6-bd0d-6f0d7eef8916",
+    "name": "Bloodgrass",
+    "source": "creationclub"
+  },
+  {
+    "id": "72df9154-6f94-4a7c-9bc9-9fa2f18e4e61",
+    "name": "Blue Butterfly Wing",
+    "source": "base"
+  },
+  {
+    "id": "d95dcc6b-05fc-43fe-8d2d-2e10e0436a0d",
+    "name": "Blue Dartwing",
+    "source": "base"
+  },
+  {
+    "id": "4113eff0-7cd6-4290-a190-b29410191918",
+    "name": "Blue Mountain Flower",
+    "source": "base"
+  },
+  {
+    "id": "784608ce-a97e-4431-b51e-27294f21793e",
+    "name": "Boar Tusk",
+    "source": "dragonborn"
+  },
+  {
+    "id": "66cb0ff6-c95f-43ad-842d-1bed80b1e255",
+    "name": "Bog Beacon",
+    "source": "creationclub"
+  },
+  {
+    "id": "437a4350-7a67-4aa7-acfd-58814623fa11",
+    "name": "Bone Meal",
+    "source": "base"
+  },
+  {
+    "id": "64ed2b48-99a8-4cc3-91e2-44577d8b33e0",
+    "name": "Briar Heart",
+    "source": "base"
+  },
+  {
+    "id": "3afcf5fd-1d34-4a97-b4ac-eb2a68b413fe",
+    "name": "Bungler's Bane",
+    "source": "creationclub"
+  },
+  {
+    "id": "e00ec2ec-66a9-4d03-bbab-29d65cdbc211",
+    "name": "Burnt Spriggan Wood",
+    "source": "dragonborn"
+  },
+  {
+    "id": "6d06cb39-d024-4fa4-bc34-7b1f2c196b7a",
+    "name": "Butterfly Wing",
+    "source": "base"
+  },
+  {
+    "id": "fe8375fe-a7f7-4c65-83df-25a7e2b8e427",
+    "name": "Canis Root",
+    "source": "base"
+  },
+  {
+    "id": "314f7b1b-21ff-4a29-9d5d-f266b41b69ec",
+    "name": "Charred Skeever Hide",
+    "source": "base"
+  },
+  {
+    "id": "df982a42-b8e9-4bc3-9a90-703fe90fe641",
+    "name": "Chaurus Eggs",
+    "source": "base"
+  },
+  {
+    "id": "df6b8a91-0f62-445b-a18a-20ec51e6dd3f",
+    "name": "Chaurus Hunter Antennae",
+    "source": "dawnguard"
+  },
+  {
+    "id": "2997401b-79fe-4647-aef2-107fca7c0049",
+    "name": "Chicken's Egg",
+    "source": "base"
+  },
+  {
+    "id": "6bcb2bd3-0613-42ce-a513-df019cf26e2c",
+    "name": "Chokeberry",
+    "source": "creationclub"
+  },
+  {
+    "id": "b16b4f1f-e488-4794-b89d-186f5988ba91",
+    "name": "Chokeweed",
+    "source": "creationclub"
+  },
+  {
+    "id": "c9cd39d2-5d6c-47ce-9e57-f0e45ad0446a",
+    "name": "Coda Flower",
+    "source": "creationclub"
+  },
+  {
+    "id": "6f17b4f4-896e-4346-aed5-a4767024efb8",
+    "name": "Comberry",
+    "source": "creationclub"
+  },
+  {
+    "id": "224433ff-2ad0-43ac-baa8-65ca6d8d8ada",
+    "name": "Congealed Putrescence",
+    "source": "creationclub"
+  },
+  {
+    "id": "28adbd60-21e0-4172-939b-1eba5f908c17",
+    "name": "Corkbulb Root",
+    "source": "creationclub"
+  },
+  {
+    "id": "6cc5b66f-185b-4e80-9875-260b51921f98",
+    "name": "Corrupted Human Heart",
+    "source": "creationclub"
+  },
+  {
+    "id": "db98dfe7-d9a5-4b73-b834-19cd342de855",
+    "name": "Creep Cluster",
+    "source": "base"
+  },
+  {
+    "id": "1b09d9ab-2a31-46e9-8459-535b4cedc9e5",
+    "name": "Crimson Nirnroot",
+    "source": "base"
+  },
+  {
+    "id": "ac2069ec-2ffc-43c1-a4ce-8592682352b7",
+    "name": "Cyrodilic Spadetail",
+    "source": "base"
+  },
+  {
+    "id": "66e9039b-7979-42bc-ba0b-f4ce3552970d",
+    "name": "Daedra Heart",
+    "source": "base"
+  },
+  {
+    "id": "f1d3df43-b701-4a47-bab0-7a7ff12de000",
+    "name": "Daedra Silk",
+    "source": "creationclub"
+  },
+  {
+    "id": "d2a0f2ef-07c4-4680-89f7-bea7bd68673d",
+    "name": "Daedra Venin",
+    "source": "creationclub"
+  },
+  {
+    "id": "e2ea6b0a-d173-483a-a101-198e74e41b5b",
+    "name": "Daedroth Teeth",
+    "source": "creationclub"
+  },
+  {
+    "id": "9136140a-0bc1-411e-b28d-6f3280bc5fda",
+    "name": "Deathbell",
+    "source": "base"
+  },
+  {
+    "id": "7855b780-f201-4f3a-ae80-64a759ca4953",
+    "name": "Dragon's Tongue",
+    "source": "base"
+  },
+  {
+    "id": "1f787137-851a-46d4-be17-f6e11af0f405",
+    "name": "Dreugh Wax",
+    "source": "creationclub"
+  },
+  {
+    "id": "1e141067-9e5d-47c3-bcf3-394585ffb222",
+    "name": "Dwarven Oil",
+    "source": "base"
+  },
+  {
+    "id": "8eb2babf-7c86-4710-aea7-303627352786",
+    "name": "Ectoplasm",
+    "source": "base"
+  },
+  {
+    "id": "d4206713-d2d7-4bca-98c3-737deeb69d92",
+    "name": "Elves Ear",
+    "source": "base"
+  },
+  {
+    "id": "cbb3ae23-ba3a-47e3-89e8-e11109f8d4e0",
+    "name": "Elytra Ichor",
+    "source": "creationclub"
+  },
+  {
+    "id": "624c2ed8-ae46-4b5c-ad2e-3ba0f8e12da1",
+    "name": "Emperor Parasol Moss",
+    "source": "dragonborn"
+  },
+  {
+    "id": "78a3b2c5-7338-479a-97b3-0a06fbdc5225",
+    "name": "Eye of Sabre Cat",
+    "source": "base"
+  },
+  {
+    "id": "7ea34a53-5773-4c76-96bf-1f3f2224b450",
+    "name": "Falmer Ear",
+    "source": "base"
+  },
+  {
+    "id": "91885689-fc5e-46b8-aa3d-465c45311df2",
+    "name": "Felsaad Tern Feathers",
+    "source": "dragonborn"
+  },
+  {
+    "id": "9603fb3b-5212-490b-8aff-cbf8e78b679c",
+    "name": "Fine-Cut Void Salts",
+    "source": "base"
+  },
+  {
+    "id": "68e12ae8-ab7c-4d54-9881-9da8b6cc7b14",
+    "name": "Fire Petal",
+    "source": "creationclub"
+  },
+  {
+    "id": "3b3fe09c-7227-4d4c-9293-cf95ad578428",
+    "name": "Fire Salts",
+    "source": "base"
+  },
+  {
+    "id": "af0cf16b-aabd-43e1-a08f-c38a4f72bc1c",
+    "name": "Flame Stalk",
+    "source": "creationclub"
+  },
+  {
+    "id": "34a67ab3-53b2-49b5-bb4f-ecca4dee4003",
+    "name": "Fly Amanita",
+    "source": "base"
+  },
+  {
+    "id": "c6e258e9-0d9d-4cec-862e-e92c1090cef8",
+    "name": "Frost Mirriam",
+    "source": "base"
+  },
+  {
+    "id": "d59ba08e-4378-4a01-acc5-4da843fe9566",
+    "name": "Frost Salts",
+    "source": "base"
+  },
+  {
+    "id": "191a20da-2316-4e34-bc20-144ec21e9fed",
+    "name": "Fungus Stalk",
+    "source": "creationclub"
+  },
+  {
+    "id": "6ad78ab4-f96d-45b2-9299-e4cbc6438cce",
+    "name": "Garlic",
+    "source": "base"
+  },
+  {
+    "id": "7876734a-e668-4415-8cf7-d540309b1171",
+    "name": "Giant Lichen",
+    "source": "base"
+  },
+  {
+    "id": "d7ee97f8-d1fe-41f5-a759-62cd04c56a58",
+    "name": "Giant's Toe",
+    "source": "base"
+  },
+  {
+    "id": "df248342-2bd0-4782-92d5-943ceac54522",
+    "name": "Glassfish",
+    "source": "creationclub"
+  },
+  {
+    "id": "9f72ee82-fec6-44d2-9572-764100863647",
+    "name": "Gleamblossom",
+    "source": "dawnguard"
+  },
+  {
+    "id": "ae02571a-908d-4ddd-a696-0b2cc3846c4d",
+    "name": "Glow Dust",
+    "source": "base"
+  },
+  {
+    "id": "d382b1fa-7c11-424c-9e69-7198382658ea",
+    "name": "Glowing Mushroom",
+    "source": "base"
+  },
+  {
+    "id": "1943fa46-4252-4eec-84b8-58fac490d211",
+    "name": "Gnarl Bark",
+    "source": "creationclub"
+  },
+  {
+    "id": "4feb87dd-7399-4043-b238-2e5f266657dc",
+    "name": "Gold Kanet",
+    "source": "creationclub"
+  },
+  {
+    "id": "42824f6c-d86c-44ba-9f2a-210881c3d220",
+    "name": "Goldfish",
+    "source": "creationclub"
+  },
+  {
+    "id": "1ba60afc-29ed-47e4-b5d8-9f7c876ce07c",
+    "name": "Grass Pod",
+    "source": "base"
+  },
+  {
+    "id": "99963a0c-76f4-427f-9a34-e494a51a2310",
+    "name": "Green Butterfly Wing",
+    "source": "creationclub"
+  },
+  {
+    "id": "f6a631fe-cdef-4409-8038-ba2d883a7a2d",
+    "name": "Hackle-Lo Leaf",
+    "source": "creationclub"
+  },
+  {
+    "id": "928d05e5-010b-4f9f-ade6-1ae037ec6d09",
+    "name": "Hagraven Claw",
+    "source": "base"
+  },
+  {
+    "id": "72231ca0-cd2e-4c5b-93fd-c07d7820e4d1",
+    "name": "Hagraven Feathers",
+    "source": "base"
+  },
+  {
+    "id": "344d85d9-8db6-45d7-82e6-ab0055a4585e",
+    "name": "Hanging Moss",
+    "source": "base"
+  },
+  {
+    "id": "44d9b154-073d-4311-a050-852f2b5df4ab",
+    "name": "Harrada",
+    "source": "creationclub"
+  },
+  {
+    "id": "2a441ddb-9b32-40b8-9186-562d0ba49121",
+    "name": "Hawk Beak",
+    "source": "base"
+  },
+  {
+    "id": "4fb83af3-e67b-4fa5-ab34-452124d982e5",
+    "name": "Hawk Feathers",
+    "source": "base"
+  },
+  {
+    "id": "d9d625cc-7c89-44d2-abd4-b8bb741de547",
+    "name": "Hawk's Egg",
+    "source": "hearthfire"
+  },
+  {
+    "id": "90d807cd-d0bb-4f7b-9eb0-ca2fb53dad7e",
+    "name": "Healing Salts",
+    "source": "creationclub"
+  },
+  {
+    "id": "71891a5e-9bf0-4345-b2d4-df7694f3332c",
+    "name": "Heart of Order",
+    "source": "creationclub"
+  },
+  {
+    "id": "1f3a08f3-d78c-4ddb-abc9-8cf71de0577e",
+    "name": "Histcarp",
+    "source": "base"
+  },
+  {
+    "id": "91cb05b4-3f8e-489a-826b-02b68ebbd8cc",
+    "name": "Honeycomb",
+    "source": "base"
+  },
+  {
+    "id": "55c80281-5bb2-4c8c-ab67-ff070967e81f",
+    "name": "Human Flesh",
+    "source": "base"
+  },
+  {
+    "id": "2e8574e1-1d28-4eb2-95c9-a303d7597233",
+    "name": "Human Heart",
+    "source": "base"
+  },
+  {
+    "id": "64ef7c03-0394-4b0a-a06e-e9bcd09b56e2",
+    "name": "Hunger Tongue",
+    "source": "creationclub"
+  },
+  {
+    "id": "329b4579-308e-4812-aad2-6fcd97001946",
+    "name": "Hydnum Azure Giant Spore",
+    "source": "creationclub"
+  },
+  {
+    "id": "544d2c89-77d6-49b4-ab96-f87085598e61",
+    "name": "Hypha Facia",
+    "source": "creationclub"
+  },
+  {
+    "id": "2d47bd5d-6d12-4d3a-a0bf-da6e23110b52",
+    "name": "Ice Wraith Teeth",
+    "source": "base"
+  },
+  {
+    "id": "0fe911a3-0245-4307-b771-331b0f3a04e2",
+    "name": "Imp Gall",
+    "source": "creationclub"
+  },
+  {
+    "id": "79404a5f-f3ca-4d06-9db7-7691e2fc09d7",
+    "name": "Imp Stool",
+    "source": "base"
+  },
+  {
+    "id": "255fadb1-8773-45da-b371-cd00cbedb273",
+    "name": "Ironwood Fruit",
+    "source": "creationclub"
+  },
+  {
+    "id": "c76d5b85-77e3-4003-be8b-d2c26a2951f2",
+    "name": "Jarrin Root",
+    "source": "base"
+  },
+  {
+    "id": "84708d54-ad0e-4cc9-9a58-7d014a34d6ec",
+    "name": "Jazbay Grapes",
+    "source": "base"
+  },
+  {
+    "id": "8bedd95b-b5e3-47a0-b139-e9d35c68e425",
+    "name": "Juniper Berries",
+    "source": "base"
+  },
+  {
+    "id": "e1e45a11-9f9b-4345-bc51-2ee5bdc8c078",
+    "name": "Juvenile Mudcrab",
+    "source": "creationclub"
+  },
+  {
+    "id": "1707f4e6-b4a5-4cad-bef0-a5fe7744164a",
+    "name": "Kagouti Hide",
+    "source": "creationclub"
+  },
+  {
+    "id": "06860d34-8747-42b6-95bb-93af5b94deb8",
+    "name": "Kresh Fiber",
+    "source": "creationclub"
+  },
+  {
+    "id": "718c5f4e-2bca-4fca-b7d0-f939cb5bb3d9",
+    "name": "Large Antlers",
+    "source": "base"
+  },
+  {
+    "id": "dd6a3fc0-042e-4765-9c1d-0bd510b36002",
+    "name": "Lavender",
+    "source": "base"
+  },
+  {
+    "id": "b16e3a9f-5f8f-445e-8b5d-1422bca4f2c0",
+    "name": "Lichor",
+    "source": "creationclub"
+  },
+  {
+    "id": "1802aa39-26e5-42bd-bb6d-8ed2da638409",
+    "name": "Luminous Russula",
+    "source": "creationclub"
+  },
+  {
+    "id": "3f157445-734a-4457-aa35-19fb8800ab00",
+    "name": "Luna Moth Wing",
+    "source": "base"
+  },
+  {
+    "id": "20d6171f-9739-4c87-8e4f-0934b8076148",
+    "name": "Lyretail Anthias",
+    "source": "creationclub"
+  },
+  {
+    "id": "d3b4ddcd-f4b7-4544-a170-219866794163",
+    "name": "Marshmerrow",
+    "source": "creationclub"
+  },
+  {
+    "id": "799d224f-6339-4e8d-856f-b261bab2f14c",
+    "name": "Minotaur Horn",
+    "source": "creationclub"
+  },
+  {
+    "id": "394984ba-dc6c-49c4-adc6-2ca298353e35",
+    "name": "Moon Sugar",
+    "source": "base"
+  },
+  {
+    "id": "17cf0ee7-ab77-4b99-a7e7-7272e04b592c",
+    "name": "Mora Tapinella",
+    "source": "base"
+  },
+  {
+    "id": "29d9a102-be9a-4876-a470-00ab325fd42d",
+    "name": "Mort Flesh",
+    "source": "creationclub"
+  },
+  {
+    "id": "497c44db-2907-45fa-b84f-2c7e4b780a7d",
+    "name": "Mudcrab Chitin",
+    "source": "base"
+  },
+  {
+    "id": "948a64c4-cfad-4339-90a8-006a194813df",
+    "name": "Namira's Rot",
+    "source": "base"
+  },
+  {
+    "id": "e4b15e17-4080-4eac-bc57-8525f2af89f7",
+    "name": "Netch Jelly",
+    "source": "dragonborn"
+  },
+  {
+    "id": "109c94f5-345b-403e-bae0-c4209ebddf32",
+    "name": "Nightshade",
+    "source": "base"
+  },
+  {
+    "id": "e11c52ee-9c28-43b0-bdca-69c2e3443039",
+    "name": "Nirnroot",
+    "source": "base"
+  },
+  {
+    "id": "3b5807b9-6cbf-4a42-b379-21c34645d69d",
+    "name": "Nordic Barnacle",
+    "source": "base"
+  },
+  {
+    "id": "3ee8851e-aac0-415e-8336-b2506f0103ff",
+    "name": "Ogre's Teeth",
+    "source": "creationclub"
+  },
+  {
+    "id": "c444e80b-bd68-4c2f-a124-51533be5861b",
+    "name": "Orange Dartwing",
+    "source": "base"
+  },
+  {
+    "id": "cd435097-f72d-4e84-961a-891b5cf26225",
+    "name": "Pearl",
+    "source": "base"
+  },
+  {
+    "id": "5e12e535-b0c7-45ea-98d9-26ae5f2b786c",
+    "name": "Pearlfish",
+    "source": "creationclub"
+  },
+  {
+    "id": "6ea63af8-68bc-4ea8-b3be-0f4ef4a21468",
+    "name": "Pine Thrush Egg",
+    "source": "base"
+  },
+  {
+    "id": "a9190aac-3a64-4810-a920-03bd1da578b7",
+    "name": "Poison Bloom",
+    "source": "dawnguard"
+  },
+  {
+    "id": "7d86c9cc-9a56-4171-a892-e5f7bfd20931",
+    "name": "Powdered Mammoth Tusk",
+    "source": "base"
+  },
+  {
+    "id": "f69f09f7-3ba9-4e49-9135-fc0cb89a3855",
+    "name": "Purple Butterfly Wing",
+    "source": "creationclub"
+  },
+  {
+    "id": "ea5813cf-6ddd-4a1b-990f-d965ae636afc",
+    "name": "Purple Mountain Flower",
+    "source": "base"
+  },
+  {
+    "id": "62f8bf18-f736-4a6a-905e-1724bb35a2a5",
+    "name": "Pygmy Sunfish",
+    "source": "creationclub"
+  },
+  {
+    "id": "cc49baed-62a4-4ea3-a469-46acba612696",
+    "name": "Red Kelp Gas Bladder",
+    "source": "creationclub"
+  },
+  {
+    "id": "6013943c-f6db-46ce-b970-607c5a43cc07",
+    "name": "Red Mountain Flower",
+    "source": "base"
+  },
+  {
+    "id": "c65d78b5-d8f8-4da4-a4b9-4839217e2477",
+    "name": "Redwort Flower",
+    "source": "creationclub"
+  },
+  {
+    "id": "4a7052c0-5b1b-4124-ac03-cb03485f9fb8",
+    "name": "River Betty",
+    "source": "base"
+  },
+  {
+    "id": "5d30fe5e-5bb3-4656-985f-bb4cd3f71e0d",
+    "name": "Rock Warbler Egg",
+    "source": "base"
+  },
+  {
+    "id": "da7ee410-5c49-463a-b0b6-cb11f47cf27c",
+    "name": "Roobrush",
+    "source": "creationclub"
+  },
+  {
+    "id": "4c8f1e24-0925-4e94-9329-17ea45d3e879",
+    "name": "Rot Scale",
+    "source": "creationclub"
+  },
+  {
+    "id": "388a06c4-ac24-4a1f-abf9-efddd8c21e62",
+    "name": "Sabre Cat Tooth",
+    "source": "base"
+  },
+  {
+    "id": "d49fe64c-cf54-4dd1-aa21-9990ae9dcc71",
+    "name": "Salmon Roe",
+    "source": "hearthfire"
+  },
+  {
+    "id": "8c684f02-6244-4919-8d4e-522213c801f3",
+    "name": "Salt Pile",
+    "source": "base"
+  },
+  {
+    "id": "60534bba-b71f-4b1e-9f06-c746ad3beaad",
+    "name": "Saltrice",
+    "source": "creationclub"
+  },
+  {
+    "id": "80f96e0a-eb11-4195-b320-84d3925e87e7",
+    "name": "Scalon Fin",
+    "source": "creationclub"
+  },
+  {
+    "id": "eb2e7461-36b6-42a0-bce0-6d2a3c849312",
+    "name": "Scaly Pholiota",
+    "source": "base"
+  },
+  {
+    "id": "1f92c613-7ec1-4aa8-9474-15db0b82a8b4",
+    "name": "Scathecraw",
+    "source": "dragonborn"
+  },
+  {
+    "id": "16f74542-f4b1-4ace-b63e-d4080e9265f0",
+    "name": "Screaming Maw",
+    "source": "creationclub"
+  },
+  {
+    "id": "5073f83f-3c1f-488e-9306-0a5aaf2ee138",
+    "name": "Scrib Jelly",
+    "source": "creationclub"
+  },
+  {
+    "id": "1923d63a-6f6d-4334-bd15-dff25f28638e",
+    "name": "Scrib Jerky",
+    "source": "creationclub"
+  },
+  {
+    "id": "e4e3c3c8-90e4-492f-9730-16af42d78c47",
+    "name": "Silverside Perch",
+    "source": "base"
+  },
+  {
+    "id": "9208c128-8140-4f1c-a3e7-afecba4d450f",
+    "name": "Simon Rodayne's Heart",
+    "source": "creationclub"
+  },
+  {
+    "id": "fea07cf1-e3b8-4e5d-91ba-7c5845119d07",
+    "name": "Skeever Tail",
+    "source": "base"
+  },
+  {
+    "id": "d3ccccaa-2b63-4761-8f7a-6390ec16679a",
+    "name": "Slaughterfish Egg",
+    "source": "base"
+  },
+  {
+    "id": "65878897-d188-40d8-8b7b-2eb1d288d216",
+    "name": "Slaughterfish Scales",
+    "source": "base"
+  },
+  {
+    "id": "b8e94963-107b-4315-b098-04e43a8092ac",
+    "name": "Sload Soap",
+    "source": "creationclub"
+  },
+  {
+    "id": "ffa2e932-4a88-4e5a-9320-593e86421aec",
+    "name": "Small Antlers",
+    "source": "base"
+  },
+  {
+    "id": "5119c800-4721-47ba-92e7-fa0837ff135f",
+    "name": "Small Pearl",
+    "source": "base"
+  },
+  {
+    "id": "3ef94c3f-f6c5-49bd-963c-a465b02e2674",
+    "name": "Snowberries",
+    "source": "base"
+  },
+  {
+    "id": "2422be25-7dfe-4325-bbda-88d56f4c1a37",
+    "name": "Spadefish",
+    "source": "creationclub"
+  },
+  {
+    "id": "c8e295a3-715d-4c75-92cc-2624d7a00efa",
+    "name": "Spawn Ash",
+    "source": "dragonborn"
+  },
+  {
+    "id": "dd62fb97-9235-4ae7-b653-3c272fa7b90a",
+    "name": "Spiddal Stick",
+    "source": "creationclub"
+  },
+  {
+    "id": "16c1c9d8-4682-44f7-85f6-4557b125459a",
+    "name": "Spider Egg",
+    "source": "base"
+  },
+  {
+    "id": "18845836-a1ec-47d5-a428-72a3b236bc2a",
+    "name": "Spriggan Sap",
+    "source": "base"
+  },
+  {
+    "id": "114daf8e-5dad-4ce1-9692-a3eeea71bc9f",
+    "name": "Steel-Blue Entoloma",
+    "source": "creationclub"
+  },
+  {
+    "id": "2f5f9602-d85f-4091-98c8-ff6d577d5b6f",
+    "name": "Stoneflower Petals",
+    "source": "creationclub"
+  },
+  {
+    "id": "ba5fb501-0f54-40c6-9e3c-b6ad23f0b73b",
+    "name": "Swamp Fungal Pod",
+    "source": "base"
+  },
+  {
+    "id": "03540cc7-d940-4370-af76-935bc9b1a465",
+    "name": "Taproot",
+    "source": "base"
+  },
+  {
+    "id": "fa180eaf-5e96-4885-8ce3-a38123fe470e",
+    "name": "Thistle Branch",
+    "source": "base"
+  },
+  {
+    "id": "0e595713-8bb3-4ebb-a16b-75ec91605e40",
+    "name": "Thorn Hook",
+    "source": "creationclub"
+  },
+  {
+    "id": "c2915f22-bbde-41a8-b12c-ec820e564011",
+    "name": "Torchbug Thorax",
+    "source": "base"
+  },
+  {
+    "id": "0402ae19-ad26-46a0-a054-e8675338753c",
+    "name": "Trama Root",
+    "source": "dragonborn"
+  },
+  {
+    "id": "2f1648dd-862f-40bb-8697-6d921dbf46a7",
+    "name": "Troll Fat",
+    "source": "base"
+  },
+  {
+    "id": "1b183817-0b80-4c37-8bb3-a99066d14b80",
+    "name": "Tundra Cotton",
+    "source": "base"
+  },
+  {
+    "id": "7e44e1aa-733d-4853-ba86-39d231c46395",
+    "name": "Vampire Dust",
+    "source": "base"
+  },
+  {
+    "id": "87e234bd-8b30-4de6-b100-2bdc77959d79",
+    "name": "Void Essence",
+    "source": "creationclub"
+  },
+  {
+    "id": "6af492f2-f6d3-4297-b9ff-a0d98cd63ee7",
+    "name": "Void Salts",
+    "source": "base"
+  },
+  {
+    "id": "b50341c2-2826-4a86-934e-03d1295aea96",
+    "name": "Watcher's Eye",
+    "source": "creationclub"
+  },
+  {
+    "id": "48e2947d-21c0-4eb3-affe-d3cc06b24975",
+    "name": "Wheat",
+    "source": "base"
+  },
+  {
+    "id": "e0687233-11b8-4702-bd19-41ca56c5b96b",
+    "name": "White Cap",
+    "source": "base"
+  },
+  {
+    "id": "b8722189-ac1f-46d0-b7a9-6b5a1ce98d4c",
+    "name": "Wild Grass Pod",
+    "source": "creationclub"
+  },
+  {
+    "id": "3baa30be-6a70-4a69-aa65-8855fcd9f571",
+    "name": "Wisp Stalk Caps",
+    "source": "creationclub"
+  },
+  {
+    "id": "eebab4b3-6e33-4743-b16d-ae8399edc23f",
+    "name": "Wisp Wrappings",
+    "source": "base"
+  },
+  {
+    "id": "3e42e9a8-6b1f-4182-b684-e267d446d35e",
+    "name": "Withering Moon",
+    "source": "creationclub"
+  },
+  {
+    "id": "216e9cf3-9c4b-48f1-b429-c06dd215e269",
+    "name": "Worm's Head Cap",
+    "source": "creationclub"
+  },
+  {
+    "id": "dc8d0e0b-11ed-451d-b370-5dd401b55b00",
+    "name": "Yellow Mountain Flower",
+    "source": "dawnguard"
+  }
+]
