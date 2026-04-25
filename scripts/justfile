@@ -1,0 +1,8 @@
+SCRIPT_FILE := "extract_data.py"
+CONFIG_FILE := "ruff.toml"
+
+lint:
+  ruff check --preview --config {{CONFIG_FILE}} {{SCRIPT_FILE}}
+
+format:
+  ruff format  --preview --config {{CONFIG_FILE}} {{SCRIPT_FILE}}
