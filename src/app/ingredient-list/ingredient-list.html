@@ -1,0 +1,44 @@
+<app-potion-preview
+  [selectedIngredientIds]="selectedIngredientIds()"
+  (deselect)="deselectIngredient($event)"
+/>
+
+<!-- Ingredient list -->
+<div class="overflow-x-auto">
+  <table class="table table-sm" aria-label="Ingredients sorted by relevance">
+    <thead>
+      <tr>
+        <th>Ingredient</th>
+        <th>Effects</th>
+      </tr>
+    </thead>
+    <tbody>
+      @for (row of sortedIngredients(); track row.ingredient.id) {
+        <tr
+          class="hover:bg-base-200 transition-colors"
+          [class.opacity-30]="isRowDisabled(row)"
+          [class.cursor-pointer]="!isRowDisabled(row)"
+          [class.cursor-not-allowed]="isRowDisabled(row)"
+          role="button"
+          [tabindex]="isRowDisabled(row) ? -1 : 0"
+          (click)="onRowClick(row)"
+          (keydown.enter)="onRowClick(row)"
+          (keydown.space)="onRowClick(row); $event.preventDefault()"
+          [attr.aria-disabled]="isRowDisabled(row)"
+          [attr.aria-label]="'Select ' + row.ingredient.name"
+        >
+          <td class="font-medium whitespace-nowrap">{{ row.ingredient.name }}</td>
+          <td>
+            <div class="grid grid-cols-2 gap-1">
+              @for (effect of row.effects; track effect.id) {
+                <span class="badge badge-xs gap-0.5" [class]="tableBadgeClass(effect)">
+                  {{ effect.name }}
+                </span>
+              }
+            </div>
+          </td>
+        </tr>
+      }
+    </tbody>
+  </table>
+</div>
