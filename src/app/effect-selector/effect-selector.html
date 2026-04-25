@@ -1,0 +1,69 @@
+<fieldset class="fieldset">
+  <legend class="fieldset-legend">Effects</legend>
+
+  @if (selectedEffectsList().length > 0) {
+    <div class="flex flex-wrap gap-1.5 mb-2">
+      @for (effect of selectedEffectsList(); track effect.id) {
+        <button
+          type="button"
+          class="badge gap-1"
+          [class]="badgeClass(effect)"
+          (click)="removeEffect(effect.id)"
+          [attr.aria-label]="'Remove ' + effect.name"
+        >
+          {{ effect.name }}
+          <span aria-hidden="true">&times;</span>
+        </button>
+      }
+    </div>
+  }
+
+  <div class="relative">
+    <input
+      #searchInput
+      type="text"
+      class="input input-neutral w-full"
+      placeholder="Search effects..."
+      [value]="query()"
+      (input)="onInput($event)"
+      (keydown)="onKeydown($event)"
+      (focus)="onFocus()"
+      autocomplete="off"
+      role="combobox"
+      aria-autocomplete="list"
+      [attr.aria-expanded]="isDropdownOpen()"
+      [attr.aria-controls]="idPrefix + '-suggestions'"
+      [attr.aria-activedescendant]="
+        activeIndex() >= 0 ? idPrefix + '-option-' + activeIndex() : null
+      "
+    />
+
+    @if (isDropdownOpen()) {
+      <ul
+        [id]="idPrefix + '-suggestions'"
+        class="dropdown-content menu bg-base-200 rounded-box z-10 w-full shadow-md mt-1 max-h-60 overflow-y-auto absolute"
+        role="listbox"
+      >
+        @for (option of filteredEffects(); track option.effect.id; let i = $index) {
+          <li
+            role="option"
+            [id]="idPrefix + '-option-' + i"
+            [attr.aria-selected]="i === activeIndex()"
+            [attr.aria-disabled]="option.disabled"
+            [class.menu-active]="i === activeIndex() && !option.disabled"
+            [class.opacity-30]="option.disabled"
+            [class.cursor-not-allowed]="option.disabled"
+            [class.cursor-pointer]="!option.disabled"
+            (click)="!option.disabled && selectEffect(option.effect)"
+            (mouseenter)="activeIndex.set(i)"
+          >
+            <span class="badge badge-xs" [class]="dotClass(option.effect)"></span>
+            {{ option.effect.name }}
+          </li>
+        }
+      </ul>
+    }
+  </div>
+
+  <p class="label">Type to search, select multiple effects</p>
+</fieldset>
