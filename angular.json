@@ -22,6 +22,11 @@
               {
                 "glob": "**/*",
                 "input": "public"
+              },
+              {
+                "glob": "*.json",
+                "input": "data",
+                "output": "/data"
               }
             ],
             "styles": ["src/styles.scss"]
